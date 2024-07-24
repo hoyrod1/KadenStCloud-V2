@@ -23,41 +23,40 @@ function title()
     $title = "Login & Registration System";
     return $title;
 }
-
+//=================================================================================//
+//============================== BEGINNING OF HEADER ==============================//
 require_once "includes/header.php";
+//=============================== ENDING OF HEADER ================================//
 ?>
-<!--END OF HEADER -->
-
-<!--------------------------------------------------------------------------------->
-
-<!--BEGGINING OF NAVIGATION BAR-->
+<!------------------------------- BEGGINING OF BODY -------------------------------->
+<body>
+<div class="main">
 <?php
+//========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
+//============================ END OF NAVIGATION BAR ==============================//
 ?>
-<!--END OF NAVIGATION BAR -->
-
-<!--------------------------------------------------------------------------------->
-
-<!-- BEGGINING OF MAIN SECTION-->
-
-<div class="container mt-3">
+<!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
+<div class="container mt-3 body">
   <br>
   <br>
   <div class="card">
-  <div class="card-body">
-  <h2 class="text-center"><b><u>Welcome To The St. Cloud's Registration Page</u></b></h2>
+      <div class="card-body">
+          <h2 class="text-center">
+              <b>
+                  <u>Welcome To The St. Cloud's Registration Page</u>
+              </b>
+          </h2>
+      </div>
   </div>
-  </div>
-
-</div> 
-<!-- END OF MAIN SECTION -->
-
-<!--------------------------------------------------------------------------------->
-
-<!--BEGGINING OF FOOTER-->
-<?php  
+</div>
+</div>
+<!------------------------------ END OF MAIN SECTION ------------------------------>
+<?php
+//============================= BEGGINING OF FOOTER ===============================//
 require_once "includes/footer.php";
+//================================ END OF FOOTER ==================================//
 ?>
-<!--END OF FOOTER -->
-
-<!--------------------------------------------------------------------------------->
+<!---------------------------------- END OF BODY ----------------------------------->
+</body>
+</html>
