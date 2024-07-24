@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^members_home?$ home.php
+
+RewriteRule ^members_update?$ update.php
+
+RewriteRule ^members_video?$ video.php
+
+RewriteRule ^members_contact?$ contact.php
+
+RewriteRule ^members/mem_admin?$ members/admin.php
