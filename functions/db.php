@@ -28,6 +28,13 @@ class Db
         $this->_username = "kadenstcloud_kadenstcloud";
         $this->_password = "SGqju2M0NF{?";
         $this->_dbname = "kadenstcloud_reg_email_log";
+	public function conn() 
+	{
+
+		$this->servername = "";
+		$this->username = "";
+		$this->password = "";
+		$this->dbname = "";
 
 
         try 
@@ -51,5 +58,19 @@ class Db
     }
 
 }
+<<<<<<< HEAD
 
 ?>
+=======
+/*
+$con = mysqli_connect('localhost', 'root', '', 'reg_email_log');
+if (!$con) {
+	echo "Not Connected";
+}
+else
+{
+	echo "Connected";
+}
+*/
+ ?>
+>>>>>>> origin/main
