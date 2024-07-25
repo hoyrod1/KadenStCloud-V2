@@ -1,8 +1,80 @@
+body {
+  width: 100%;
+}
+
 .main {
-  /* background-color: rgb(185, 216, 216); */
   height: 100vh;
   background-image: url("../pics/pic1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.container2 {
+  width: 50%;
+  height: 15vh;
+  background-color: rgba(5, 5, 5, 0.505);
+  z-index: 10;
+  border: 2px solid rgba(31, 101, 242, 0.553);
+  border-radius: 10px;
+  margin: 50% auto;
+  box-shadow: 1px 1px 50px 1px rgb(6, 6, 6);
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+.button-div {
+  margin: 10px auto;
+  width: 70%;
+  padding: 5px 10px;
+  display: block;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: rgb(63, 111, 232);
+  transition: 3s;
+}
+
+.button-div:hover {
+  border: 2px solid rgb(191, 206, 219);
+  background-color: white;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: 1s;
+}
+
+a:hover {
+  color: rgb(31, 101, 242);
+  text-decoration: none;
+}
+
+/*------------------------------ Media Querys ------------------------------*/
+@media (max-width: 84em) {
+}
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 65em) {
+}
+
+@media (max-width: 65em) {
+}
+
+@media (max-width: 31em) {
+}
+
+@media (max-width: 25em) {
+}
+
+@media (max-width: 24em) {
 }

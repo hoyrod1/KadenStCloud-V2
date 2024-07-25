@@ -33,20 +33,21 @@ require_once "includes/header.php";
 <div class="main">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
-require_once "includes/nav.php";
+// require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-<div class="container mt-3 body">
+<div class="container">
   <br>
   <br>
-  <div class="card">
-      <div class="card-body">
-          <h2 class="text-center">
-              <b>
-                  <u>Welcome To The St. Cloud's Registration Page</u>
-              </b>
-          </h2>
+  <div>
+     <div class="container2">
+        <h3>Kaden St. Cloud's Registration Page</h3>
+        <div class="button-div">
+            <a class="anch-tag" href="/home.php">
+                Click here to enter his world
+            </a>
+        </div>
       </div>
   </div>
 </div>

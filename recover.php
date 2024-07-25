@@ -8,7 +8,7 @@
  * @package  Header_File
  * @author   Rodney St.Cloud <hoyrod1@aol.com>
  * @license  STC Media inc
- * @link     https://kadenstcloud/register.php
+ * @link     https://kadenstcloud/recover.php
  */
 ob_start();
 session_start();

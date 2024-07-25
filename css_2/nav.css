@@ -1,0 +1,26 @@
+.nav-link {
+  /* gap: 15px; */
+  font-size: larger;
+  /* border: 2px solid rgb(185, 184, 184); */
+  background-color: rgba(4, 4, 3, 0.411);
+}
+
+nav {
+  border-radius: 8px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+nav a {
+  color: white;
+}

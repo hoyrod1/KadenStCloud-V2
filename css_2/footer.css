@@ -1,0 +1,30 @@
+.footer-section {
+  width: 100vw;
+  background-color: rgba(190, 227, 242, 0.305);
+  text-align: center;
+  padding: 20px;
+  margin: 0 0 0 0;
+  margin: 0 0 15px 0;
+}
+
+/*------------------------------ Media Querys ------------------------------*/
+@media (max-width: 84em) {
+}
+
+@media (max-width: 75em) {
+}
+
+@media (max-width: 65em) {
+}
+
+@media (max-width: 65em) {
+}
+
+@media (max-width: 31em) {
+}
+
+@media (max-width: 25em) {
+}
+
+@media (max-width: 24em) {
+}
