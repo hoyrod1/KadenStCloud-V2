@@ -11,7 +11,7 @@ class conn_cms
 
 		$this->servername = "localhost:3306";
 		$this->username = "kadenstcloud_kadenstcloud";
-		$this->password = "SGqju2M0NF{?";
+		$this->password = "";
 		$this->dbname = "kadenstcloud_reg_email_log";
 
 
