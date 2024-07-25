@@ -9,10 +9,10 @@ class conn_cms
 	public function conn() 
 	{
 
-		$this->servername = "localhost:3306";
-		$this->username = "kadenstcloud_kadenstcloud";
+		$this->servername = "";
+		$this->username = "";
 		$this->password = "";
-		$this->dbname = "kadenstcloud_reg_email_log";
+		$this->dbname = "";
 
 
 		try 
