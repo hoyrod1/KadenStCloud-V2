@@ -8,9 +8,9 @@
  * @package  Header_File
  * @author   Rodney St.Cloud <hoyrod1@aol.com>
  * @license  STC Media inc
- * @link     https://kadenstcloud/db.php
+ * @link     https://kadenstcloud/Db.php
  */
-class conn_cms
+class Db
 {
     private $_servname;
     private $_username;
