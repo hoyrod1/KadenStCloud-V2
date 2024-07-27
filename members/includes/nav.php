@@ -1,39 +1,46 @@
 <?php 
-
- ?>
- 	<!-- NAVIGATION BAR-->
-	<nav class="navbar navbar-expand navbar-light bg-white">
-		<div class="container">
-			<a href="home.php" class="navbar-brand"><h3>St. Cloud's Members Registration System inc</h3></a>
-				<ul class="navbar-nav">
-					<?php  
-						if (logged_in_session()) 
-						{
-					?>
-							<li class="nav-item">
-							<a href="members_home" class="nav-link">Home</a>
-							</li>
-							<li class="nav-item">
-							<a href="members_update" class="nav-link">Update</a>
-							</li>
-							<li class="nav-item">
-							<a href="members_video" class="nav-link">Video</a>
-							</li>
-							<li class="nav-item">
-							<a href="members_contact" class="nav-link">Contact</a>
-							</li>
-							<li class="nav-item">
-							<a href="../logout.php" class="nav-link" style="color: red;">Log Out</a>
-							</li>
-					<?php
-						}else
-						{
-							header("location:../login.php");
-					?>
-							
-					<?php
-						}						
-					?>
-				</ul>
-		</div>
-	</nav>
+/**
+ * * @file
+ * php version 8.2
+ * Index Page for KadenStCloud.com Registration-Login-APP
+ * 
+ * @category Registration_Login
+ * @package  Index_Page
+ * @author   Rodney St.Cloud <hoyrod1@aol.com>
+ * @license  STC Media inc
+ * @link     https://kadenstcloud/members/includes/nav.php
+ */
+?>
+  <!-- NAVIGATION BAR-->
+  <div class="nav-link">
+    <nav>
+      <a href="index.php"><h4>St. Cloud's Registration System inc</h4></a>
+      <ul>
+          <?php  
+            if (loggedInSession()) {
+                ?>
+                <li class="nav-item">
+                    <a href="members_home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="members_update" class="nav-link">Update</a>
+                </li>
+                <li class="nav-item">
+                    <a href="members_video" class="nav-link">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a href="members_contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../logout.php" class="nav-link" style="color: red;">
+                        Log Out
+                    </a>
+                </li>
+                <?php
+            } else {
+                header("location:../login.php");
+            }
+            ?>
+      </ul>
+    </nav>
+  </div>

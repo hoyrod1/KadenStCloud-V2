@@ -8,7 +8,7 @@
  * @package  Header_File
  * @author   Rodney St.Cloud <hoyrod1@aol.com>
  * @license  STC Media inc
- * @link     https://kadenstcloud/function.php
+ * @link     https://kadenstcloud/functions/function.php
  */
 //================================================================================//
 //************** BEGINNING OF FUNCTION FOR ACTIVATION OF NEW MEMBER **************//
@@ -518,11 +518,11 @@ function userRegistration($first_name, $last_name, $username, $email, $pass_word
     date_default_timezone_set("America/New_York"); 
     $date_time    = date("F d Y  g:i:s a");
 
-    $first_name       = test_input($_POST['first_name']);
-    $last_name        = test_input($_POST['last_name']);
-    $user_name        = test_input($_POST['username']);
-    $email            = test_input($_POST['email']);
-    $pass_word        = test_input($_POST['password']);
+    $first_name       = testInput($_POST['first_name']);
+    $last_name        = testInput($_POST['last_name']);
+    $user_name        = testInput($_POST['username']);
+    $email            = testInput($_POST['email']);
+    $pass_word        = testInput($_POST['password']);
 
     $password_hide    = md5($pass_word);
     $validation_code  = md5($user_name.microtime()); 

@@ -8,7 +8,7 @@
  * @package  Admin_File
  * @author   Rodney St.Cloud <hoyrod1@aol.com>
  * @license  STC Media inc
- * @link     https://kadenstcloud/admin.php
+ * @link     https://kadenstcloud/members/admin.php
  */
 ob_start();
 session_start();
@@ -37,21 +37,21 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF CONTAINER SECTION ------------------------->
-<div class="container mt-3">
-<div class="card">
-<div class="card-body">
-<h2 class="text-center">
-<?php  
-if (loggedInSession()) {
-    echo "Welcome to the Memebers Admin page";
-} else {
-    header("location:login.php");
-}
-?>
-</h2>
-</div>
-</div>
-</div>
+    <div class="container mt-3">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center">
+                <?php
+                if (loggedInSession()) {
+                    echo "Welcome to the Memebers Admin page";
+                } else {
+                    header("location:login.php");
+                }
+                ?>
+                </h2>
+            </div>
+        </div>
+    </div>
 <!---------------------------- END OF CONTAINER SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

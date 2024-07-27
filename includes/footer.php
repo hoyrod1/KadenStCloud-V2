@@ -8,7 +8,7 @@
  * @package  Header_File
  * @author   Rodney St.Cloud <hoyrod1@aol.com>
  * @license  STC Media inc
- * @link     https://kadenstcloud/footer.php
+ * @link     https://kadenstcloud/includes/footer.php
  */
 ?>
 <footer class="footer-section">
