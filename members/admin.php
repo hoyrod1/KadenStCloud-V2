@@ -1,44 +1,63 @@
 <?php
+/**
+ * * @file
+ * php version 8.2
+ * Config File For KadenStCloud.com Registration-Login-APP
+ * 
+ * @category Registration_Login
+ * @package  Admin_File
+ * @author   Rodney St.Cloud <hoyrod1@aol.com>
+ * @license  STC Media inc
+ * @link     https://kadenstcloud/admin.php
+ */
 ob_start();
 session_start();
-	function title()
+//=================================================================================//
+/**
+ * Function sets the page title
+ * 
+ * @access public  
+ * 
+ * @return string
+ */
+function title()
 {
-	return $title = "Members Admin Page";
+    return $title = "Members Admin Page";
 }
-/***BEGINNING OF HEADER***/
-require_once("includes/header.php");
+//=================================================================================//
+//============================== BEGINNING OF HEADER ==============================//
+require_once "includes/header.php";
+//=============================== ENDING OF HEADER ================================//
 ?>
-<!--END OF HEADER -->
-<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!--BEGGINING OF NAVIGATION BAR-->
+<!------------------------------- BEGGINING OF BODY -------------------------------->
+<body>
 <?php
-require_once("includes/nav.php");
+//========================= BEGGINING OF NAVIGATION BAR ===========================//
+require_once "includes/nav.php";
+//============================ END OF NAVIGATION BAR ==============================//
 ?>
-<!--END OF NAVIGATION BAR -->
-<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!-- MAIN SECTION-->
-	<div class="container mt-3">
-		<div class="card">
-		 	<div class="card-body">
-		 		<h2 class="text-center">
-		 			<?php  
-		 				if (logged_in_session()) 
-		 				{
-			 				echo "Welcome to the Memebers Admin page";
-		 				}else
-		 				{
-		 					header("location:login.php");
-		 				}
-		 			?>
-		 		</h2>
-		 	</div>
-		</div>
-	</div>
-<!--END OF MAIN SECTION-->
-<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
-<!--BEGGINING OF FOOTER-->
+<!------------------------- BEGINNING OF CONTAINER SECTION ------------------------->
+<div class="container mt-3">
+<div class="card">
+<div class="card-body">
+<h2 class="text-center">
 <?php  
-require_once("includes/footer.php");
+if (loggedInSession()) {
+    echo "Welcome to the Memebers Admin page";
+} else {
+    header("location:login.php");
+}
 ?>
-<!--END OF FOOTER -->
-<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</h2>
+</div>
+</div>
+</div>
+<!---------------------------- END OF CONTAINER SECTION ---------------------------->
+<?php
+//============================= BEGGINING OF FOOTER ===============================//
+require_once "includes/footer.php";
+//================================ END OF FOOTER ==================================//
+?>
+<!---------------------------------- END OF BODY ----------------------------------->
+</body>
+</html>

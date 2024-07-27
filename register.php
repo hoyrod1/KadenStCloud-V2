@@ -45,7 +45,7 @@ require_once "includes/nav.php";
                     <h2 class="text-center py-1">Registration Page</h2>
                 </div>
                 <hr>
-                <?php form_validation(); ?>
+                <?php formValidation(); ?>
                 <div class="card-body">
                     <form action="" method="POST">
                         <input type="text" name="first_name" placeholder="Enter First Name" class="form-control mb-2">

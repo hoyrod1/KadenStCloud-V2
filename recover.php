@@ -45,14 +45,14 @@ require_once "includes/nav.php";
             <h2 class="text-center py-2">Recover Password</h2>
           </div>
           <?php 
-              recover_password();
-              display_message(); 
+              recoverPassword();
+              displayMessage(); 
             ?>
           <hr>
           <div class="card-body">
             <form method="POST">
               <input type="text" name="email" placeholder="Please enter or email" class="form-control mb-2">
-              <input type="hidden" name="token_gen" value="<?php echo token_generator(); ?>">
+              <input type="hidden" name="token_gen" value="<?php echo tokenGenerator(); ?>">
               <div class="card-footer">
                  <button class=" btn btn-success" name="recover">
                      Recover Password

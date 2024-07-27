@@ -40,7 +40,7 @@ require_once "includes/nav.php";
             <div class="card-body">
                 <h1 class="text-center">Activate Page</h1>
             </div>
-            <?php account_activate(); ?>
+            <?php accountActivate(); ?>
         </div>
     </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>

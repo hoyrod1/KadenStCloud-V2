@@ -12,5 +12,6 @@
  */
 ?>
 <footer class="footer-section">
-  Copyright © St. Cloud Registration-Login System inc 2024
+  Copyright © St. Cloud Registration-Login System inc 2020 - <span id="demo"></span>
 </footer>
+<script src="./Date_Non_Mem.js"></script>

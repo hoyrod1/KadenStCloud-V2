@@ -45,7 +45,7 @@ require_once "includes/nav.php";
               <h2 class="text-center py-2">Activate</h2>
           </div>
           <hr>
-          <?php validate_code(); ?>
+          <?php validateCode(); ?>
           <div class="card-body">
             <form method="POST">
                 <input type="text" name="token" placeholder="########" class="form-control mb-2">

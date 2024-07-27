@@ -17,7 +17,7 @@
 <a href="index.php"><h4>St. Cloud's Registration System inc</h4></a>
 <ul>
 <?php  
-if (logged_in_session()) {
+if (loggedInSession()) {
     header("location: members/home.php");
     ?>
 

@@ -46,8 +46,8 @@ require_once "includes/nav.php";
           </div>
           <hr>
           <?php 
-            login_validation(); 
-            display_message();
+            loginValidation(); 
+            displayMessage();
             ?>
           <div class="card-body">
             <form method="POST">
