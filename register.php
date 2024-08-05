@@ -29,7 +29,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body>
+<body class="register-body">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//

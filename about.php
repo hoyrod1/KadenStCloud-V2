@@ -36,10 +36,17 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body>
-    <div class="contact-container">
+<body class="about-body">
+<div class="main-about">
+    <div class="">
+        <div class="">
+            <div class="">
+                <h1 class="about-h1">Welcome to the About page</h1>
 
+            </div>
+        </div>
     </div>
+</div>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//
 require_once "includes/footer.php";

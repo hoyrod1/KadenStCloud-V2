@@ -30,17 +30,8 @@ require_once "includes/header.php";
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <body>
-<div class="main">
-<?php
-//========================= BEGGINING OF NAVIGATION BAR ===========================//
-// require_once "includes/nav.php";
-//============================ END OF NAVIGATION BAR ==============================//
-?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-<div class="container">
-  <br>
-  <br>
-  <div>
+<div class="main">
      <div class="container2">
         <h3>Kaden St. Cloud's Registration Page</h3>
         <div class="button-div">
@@ -49,13 +40,11 @@ require_once "includes/header.php";
             </a>
         </div>
       </div>
-  </div>
-</div>
 </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//
-require_once "includes/footer.php";
+// require_once "includes/footer.php";
 //================================ END OF FOOTER ==================================//
 ?>
 <!---------------------------------- END OF BODY ----------------------------------->

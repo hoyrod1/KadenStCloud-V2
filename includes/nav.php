@@ -11,11 +11,11 @@
  * @link     https://kadenstcloud/includes/nav.php
  */
 ?>
-  <!-- NAVIGATION BAR-->
-  <div class="nav-link">
-    <nav>
-      <a href="index.php"><h4>St. Cloud's Registration System inc</h4></a>
-        <ul>
+    <!-- ---------------------BEGINNING OF HEADER SECTION------------------------ -->
+    <header class="header">
+    <a class="main-nav-link" href="index.php"><h4>St. Cloud's Registration System inc</h4></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
             <?php  
             if (loggedInSession()) {
                 header("location: members/home.php");
@@ -23,24 +23,31 @@
             } else {
                 ?>
                     <li>
-                        <a href="/home.php">Home</a>
+                        <a class="main-nav-link" href="/home.php">Home</a>
                     </li>
                     <li>
-                        <a href="/about.php">About</a>
+                        <a class="main-nav-link" href="/about.php">About</a>
                     </li>
                     <li>
-                        <a href="/contact.php">Contact</a>
+                        <a class="main-nav-link" href="/contact.php">Contact</a>
                     </li>
                     <li>
-                        <a href="/login.php">Login</a>
+                        <a class="main-nav-link" href="/login.php">Login</a>
                     </li>
                     <li>
-                        <a href="/register.php">Register</a>
+                        <a class="main-nav-link" href="/register.php">Register</a>
                     </li>
-            
                 <?php
             }
             ?>
         </ul>
     </nav>
-  </div>
+    <button class="btn-mobil-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline">
+
+        </ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline">
+
+        </ion-icon>
+    </button>
+    </header>

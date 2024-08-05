@@ -13,15 +13,39 @@
 require_once 'functions/config.php';
 ?>
 <!DOCTYPE html>
-    <html>
+    <html style="overflow-x: hidden;">
         <head>
+            <!------------------ BEGINNING OF META DESCRIPTION ------------------>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Comapatible" content="ie-edge">
-            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <meta name="description" content="Kaden Registration System" />
+            <!------------------- ENDING OF META DESCRIPTION -------------------->
+
+            <!---------------------- BEGINNING OF fAVICON ----------------------->
+            <!-- <link rel="icon" href="img/favicon_desktop.png" />
+            <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+            <link rel="manifest" href="manifest.webmanifest" /> -->
+            <!------------------------ ENDING OF fAVICON ------------------------>
+
+            <!------------------ BEGINNING OF JAVASCRIPT FILES ------------------>
+            <script
+              type="module"
+              src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+            ></script>
+            <script
+              nomodule=""
+              src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+            ></script>
+            <script defer type="text/javascript" src="js/mobile.js"></script>
+            <!-------------------- ENDING OF JAVASCRIPT FILES -------------------->
+
+            <!---------------------- BEGINNING OF CSS FILES ---------------------->
             <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-            <title> <?php echo title(); ?></title>
             <link rel="stylesheet" href="./css_2/nav.css">
             <link rel="stylesheet" href="./css_2/footer.css">
             <link rel="stylesheet" href="./css_2/index.css">
+            <link rel="stylesheet" href="./css_2/home.css">
+            <!------------------------ ENDING OF CSS FILES ----------------------->
+            <title> <?php echo title(); ?></title>
         </head>

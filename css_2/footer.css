@@ -1,14 +1,17 @@
 .footer-section {
-  width: 100vw;
-  background-color: rgba(190, 227, 242, 0.305);
+  background-color: rgba(63, 111, 232, 0.656);
+  color: white;
   text-align: center;
   padding: 20px;
   margin: 0 0 0 0;
   margin: 0 0 15px 0;
+  position: relative;
+  top: 95vh;
 }
 
 /*------------------------------ Media Querys ------------------------------*/
-@media (max-width: 84em) {
+
+/* @media (max-width: 84em) {
 }
 
 @media (max-width: 75em) {
@@ -27,4 +30,4 @@
 }
 
 @media (max-width: 24em) {
-}
+} */
