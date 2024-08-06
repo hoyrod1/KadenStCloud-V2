@@ -29,7 +29,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body>
+<body class="login-body">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
@@ -37,34 +37,32 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 m-auto">
-        <div class="card mt-5">
-          <div class="card-title">
-             <h2 class="text-center py-2">Login Page</h2>
-          </div>
-          <hr>
-          <?php 
-            loginValidation(); 
-            displayMessage();
-            ?>
-          <div class="card-body">
-            <form method="POST">
-                <input type="text" name="Email" placeholder="Enter Email" class="form-control mb-2">
-                <input type="password" name="Password" placeholder="Enter Password" class="form-control mb-2">
-                <button class=" btn btn-success mt-2 float-right" name="login_btn">
-                     Login
-                </button>
-          </div>
-          <div class="card-footer">
-              <a href="/recover.php" class="float-right">Forgot Password</a>
-              <input type="checkbox" name="remember"><span> Remember Me</span>
-              </div>
-            </form>
-          </div>
-       </div>
-    </div>
+<div class="main-container">
+<?php 
+  loginValidation(); 
+  displayMessage();
+?>
+<hr>
+<div class="login-container">
+  <h1 class="login-h1">Login Page</h1>
+    <div class="">
+      <form class="log-form" method="POST">
+          <input class="log-inp" type="text" name="Email" placeholder="Enter Email">
+          <br>
+          <input class="log-inp" type="password" name="Password" placeholder="Enter Password">
+          <br>
+          <button class="login-button" name="login_btn">
+                Login
+          </button>
+        <div class="login-recover-remember">
+        <a href="/recover.php" class="login-anchor">Forgot Password</a>
+        <br>
+        <input class="log-check" type="checkbox" name="remember"><span> Remember Me</span>
+        </div>
+      </div>
+    </form>
+</div>
+<hr>
 </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php

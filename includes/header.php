@@ -41,11 +41,11 @@ require_once 'functions/config.php';
             <!-------------------- ENDING OF JAVASCRIPT FILES -------------------->
 
             <!---------------------- BEGINNING OF CSS FILES ---------------------->
-            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="./css_2/nav.css">
             <link rel="stylesheet" href="./css_2/footer.css">
             <link rel="stylesheet" href="./css_2/index.css">
             <link rel="stylesheet" href="./css_2/home.css">
+            <link rel="stylesheet" href="./css_2/login.css">
             <!------------------------ ENDING OF CSS FILES ----------------------->
             <title> <?php echo title(); ?></title>
         </head>

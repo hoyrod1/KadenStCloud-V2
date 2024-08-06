@@ -3,7 +3,7 @@
   padding: 15px 15px;
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(72, 72, 72);
   /* gap: 35px; */
 }
 
@@ -112,14 +112,28 @@
   }
 }
 
-/*------------------ MEDIA QUERY FOR 32em WIDTH ------------------*/
-@media (max-width: 32em) {
+/*------------------ MEDIA QUERY FOR 54em WIDTH ------------------*/
+@media (max-width: 54em) {
   .nav-open .main-nav {
-    margin-top: 15%;
+    margin-top: 10%;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 32em WIDTH ------------------*/
+@media (max-width: 34em) {
+  .nav-open .main-nav {
+    margin-top: 20%;
   }
 
   .main-nav-link h4 {
     font-size: medium;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 24em WIDTH ------------------*/
+@media (max-width: 24em) {
+  .nav-open .main-nav {
+    margin-top: 21%;
   }
 }
 
@@ -136,6 +150,4 @@
 }
 @media (max-width: 25em) {
 }
-
-@media (max-width: 24em) {
-} */
+ */
