@@ -33,7 +33,7 @@ require_once "includes/header.php";
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
 <div class="main">
      <div class="container2">
-        <h3>Kaden St. Cloud's Registration Page</h3>
+        <h1 class="index-h1">Kaden St. Cloud's Registration Page</h1>
         <div class="button-div">
             <a class="anch-tag" href="/home.php">
                 Click here to enter his world
