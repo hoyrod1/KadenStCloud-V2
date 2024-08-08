@@ -87,3 +87,27 @@ form {
 .log-check {
   margin-top: 10px;
 }
+
+@media (max-width: 48em) {
+  .login-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 34em) {
+  .login-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 27em) {
+  .login-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 22.5em) {
+  .login-container {
+    width: 100%;
+  }
+}

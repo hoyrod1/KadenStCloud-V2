@@ -13,7 +13,7 @@
 require_once 'functions/config.php';
 ?>
 <!DOCTYPE html>
-    <html style="overflow-x: hidden;">
+    <html>
         <head>
             <!------------------ BEGINNING OF META DESCRIPTION ------------------>
             <meta charset="utf-8">
@@ -37,7 +37,6 @@ require_once 'functions/config.php';
               nomodule=""
               src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
             ></script>
-            <script defer type="text/javascript" src="js/mobile.js"></script>
             <!-------------------- ENDING OF JAVASCRIPT FILES -------------------->
 
             <!---------------------- BEGINNING OF CSS FILES ---------------------->

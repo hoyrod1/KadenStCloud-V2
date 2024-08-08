@@ -30,43 +30,32 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body class="home-body" style="overflow-x: hidden;">
+<body class="home-body">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF CONTAINER SECTION ------------------------->
-<div class="home-main">
-    <div class="container mt-3">
-        <div class="card home-card">
-            <div class="card-body">
-                <h2 class="text-center home-h2">Welcome to the Home page</h2>
-
-            </div>
-        </div>
+<hr>
+<div class="home-container">
+    <div class="container-h1">
+        <h1 class="home-h1">Welcome to the Home page</h1>
     </div>
-    <div class="container mt-3">
-        <div class="card home-card">
-            <div class="card-body home-card-body">
-                <h2 class="text-center home-h2">
-                    If you haven't registered yet click on the link below
-                </h2>
-                <a class="home-anch-tag" href="register.php">Register</a>
-            </div>
-        </div>
+    <div class="container-reg-link">
+        <h2 class="home-h2">
+            If you haven't registered yet click on the link below
+        </h2>
+        <a class="home-anch-tag" href="register.php">Register</a>
     </div>
-    <div class="container mt-3">
-        <div class="card home-card">
-            <div class="card-body home-card-body">
-                <h2 class="text-center home-h2">
-                    If you are already registered click on the link below
-                </h2>
-                <a class="home-anch-tag" href="login.php">Login</a>
-            </div>
-        </div>
+    <div class="container-login-link">
+        <h2 class="home-h2">
+            If you are already registered click on the link below
+        </h2>
+        <a class="home-anch-tag" href="login.php">Login</a>
     </div>
 </div>
+<hr>
 <!---------------------------- END OF CONTAINER SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

@@ -1,30 +1,48 @@
-.home-body {
-  /* background-color: black; */
-  position: relative;
-  overflow-x: hidden;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.home-main {
+.home-body {
+  background-color: rgb(195, 195, 195);
+}
+
+.home-container {
+  height: 30%;
   /* position: absolute; */
-  height: 100vh;
-  width: 100vw;
+  background-color: lightgrey;
+  height: 80%;
+  width: 90%;
+  margin: 5px auto;
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   background-image: url("../pics/moon.webp");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
-.container {
-  height: 30%;
+.container-reg-link,
+.container-login-link {
+  background-color: rgba(4, 4, 3, 0.607);
+  width: 80%;
+  margin: 80px auto;
+  padding: 25px 10px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 50px 1px rgba(7, 7, 7, 0.708);
 }
 
-.home-h2 {
+.home-h1 {
+  text-decoration: underline;
+}
+
+.home-h2,
+.home-h1 {
   color: white;
-}
-
-.home-card {
-  background-color: rgba(0, 0, 0, 0.518);
-  width: 100%;
+  text-align: center;
 }
 
 .home-anch-tag {
@@ -37,22 +55,22 @@
 
 /*------------------ MEDIA QUERY FOR 57em WIDTH ------------------*/
 @media (max-width: 57em) {
-  .home-main {
-    position: static;
-  }
-
   .home-h2 {
     font-size: x-large;
-  }
-
-  .container {
-    height: 35%;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 32em WIDTH ------------------*/
 @media (max-width: 32em) {
-  .home-h2 {
+  .home-h2,
+  .home-h1 {
     font-size: medium;
+  }
+  .container-reg-link,
+  .container-login-link {
+    width: 100%;
+  }
+  .home-anch-tag {
+    text-decoration: underline;
   }
 }
