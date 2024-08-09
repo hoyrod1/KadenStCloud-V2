@@ -45,6 +45,7 @@ require_once 'functions/config.php';
             <link rel="stylesheet" href="./css_2/index.css">
             <link rel="stylesheet" href="./css_2/home.css">
             <link rel="stylesheet" href="./css_2/login.css">
+            <link rel="stylesheet" href="./css_2/register.css">
             <!------------------------ ENDING OF CSS FILES ----------------------->
             <title> <?php echo title(); ?></title>
         </head>

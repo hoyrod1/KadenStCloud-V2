@@ -29,7 +29,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body class="register-body">
+<body class="reg-body">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
@@ -37,30 +37,37 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-6 m-auto">
-            <div class="card mt-5">
-                <div class="card-title">
-                    <h2 class="text-center py-1">Registration Page</h2>
-                </div>
-                <hr>
-                <?php formValidation(); ?>
-                <div class="card-body">
-                    <form action="" method="POST">
-                        <input type="text" name="first_name" placeholder="Enter First Name" class="form-control mb-2">
-                        <input type="text" name="last_name" placeholder="Enter Last Name" class="form-control mb-2">
-                        <input type="text" name="username" placeholder="Enter Username" class="form-control mb-2">
-                        <input type="email" name="email" placeholder="Enter Email" class="form-control mb-2">
-                        <input type="password" name="password" placeholder="Enter Password" class="form-control mb-2">
-                        <input type="password" name="confirm_password" placeholder="Re-Enter Password" class="form-control mb-2">
-                        <button name="signup" class=" btn btn-success mt-2 float-right">Sign Up</button>
-                    </form>
-                 </div>
-             </div>
-         </div>
-     </div>
-  </div>
+<div class="reg-main-container">
+<hr>
+<?php formValidation(); ?>
+<div class="reg-container">
+  <h1 class="reg-h1">Registration Page</h1>
+    <div class="">
+      <form class="reg-form" method="POST">
+          <input class="reg-inp" type="text" name="first_name" placeholder="Enter First Name">
+          <br>
+          <input class="reg-inp" type="text" name="last_name" placeholder="Enter Last Name">
+          <br>
+          <input class="reg-inp" type="text" name="username" placeholder="Enter Username">
+          <br>
+          <input class="reg-inp" type="email" name="Email" placeholder="Enter Email">
+          <br>
+          <input class="reg-inp" type="password" name="Password" placeholder="Enter Password">
+          <br>
+          <input class="reg-inp" type="password" name="confirm_password" placeholder="Re-Enter Password">
+          <br>
+          <button class="reg-button" name="signup">
+                Sign Up
+          </button>
+        <div class="already-member">
+            Already Registered: <a href="/login.php" class="reg-anchor">Login</a>
+        </div>
+      </div>
+    </form>
+</div>
+<hr>
+</div>
+</div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//
