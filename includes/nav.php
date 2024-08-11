@@ -13,7 +13,9 @@
 ?>
     <!-- ---------------------BEGINNING OF HEADER SECTION------------------------ -->
     <header class="header">
-    <a class="main-nav-link" href="index.php"><h4>St. Cloud's Registration System inc</h4></a>
+    <a class="main-nav-link" href="index.php">
+        <h4>St. Cloud's Registration System inc</h4>
+    </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
             <?php  

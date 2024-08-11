@@ -29,23 +29,39 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-
+<body class="about-body" style="overflow-x: hidden;">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body class="about-body">
 <div class="main-about">
-    <div class="">
-        <div class="">
-            <div class="">
-                <h1 class="about-h1">Welcome to the About page</h1>
-
-            </div>
-        </div>
+    <hr>
+    <div class="container-about-h1">
+        <h1 class="about-h1">Welcome to the About page</h1>
     </div>
+    <div class="container-about-paragraph">
+        <p class="about-paragraph">
+            Welcome to Kaden St. Cloud's web site initially built by his Daddy 
+            to inspire his son to pursue a career in web developement. The goal
+            is to guide my son while showing him the complexities of 
+            web developement.
+        </p>
+    </div>
+    <div class="about-reg-link">
+        <h2 class="about-h2">
+            If you haven't registered yet click on the link below
+        </h2>
+        <a class="about-anch-tag" href="register.php">Register</a>
+    </div>
+    <div class="about-login-link">
+        <h2 class="about-h2">
+            If you are already registered click on the link below
+        </h2>
+        <a class="about-anch-tag" href="login.php">Login</a>
+    </div>
+    <hr>
 </div>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

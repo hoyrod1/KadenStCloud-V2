@@ -29,7 +29,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body class="reg-body">
+<body class="reg-body" style="overflow-x: hidden;">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
@@ -38,9 +38,9 @@ require_once "includes/nav.php";
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
 <div class="reg-main-container">
-<hr>
-<?php formValidation(); ?>
-<div class="reg-container">
+  <?php formValidation(); ?>
+  <div class="reg-container">
+  <hr>
   <h1 class="reg-h1">Registration Page</h1>
     <div class="">
       <form class="reg-form" method="POST">
@@ -64,8 +64,8 @@ require_once "includes/nav.php";
         </div>
       </div>
     </form>
+    <hr>
 </div>
-<hr>
 </div>
 </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>

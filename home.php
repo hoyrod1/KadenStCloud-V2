@@ -30,15 +30,15 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body class="home-body">
+<body class="home-body" style="overflow-x: hidden;">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF CONTAINER SECTION ------------------------->
-<hr>
 <div class="home-container">
+    <hr>
     <div class="container-h1">
         <h1 class="home-h1">Welcome to the Home page</h1>
     </div>
@@ -54,8 +54,8 @@ require_once "includes/nav.php";
         </h2>
         <a class="home-anch-tag" href="login.php">Login</a>
     </div>
+    <hr>
 </div>
-<hr>
 <!---------------------------- END OF CONTAINER SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

@@ -37,13 +37,13 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-<div class="main-container">
+<div class="main-container" style="overflow-x: hidden;">
 <?php 
   loginValidation(); 
   displayMessage();
 ?>
-<hr>
 <div class="login-container">
+  <hr>
   <h1 class="login-h1">Login Page</h1>
     <div class="">
       <form class="log-form" method="POST">

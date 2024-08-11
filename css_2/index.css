@@ -58,6 +58,20 @@ a:hover {
 }
 
 /*------------------------------ Media Querys ------------------------------*/
+/*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
+@media (max-width: 80em) {
+  .container2 {
+    margin: 25% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 73.4375em WIDTH ------------------*/
+@media (max-width: 73.4375em) {
+  .container2 {
+    margin: 50% auto;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 59em WIDTH ------------------*/
 @media (max-width: 59em) {
   .container2 {
@@ -74,11 +88,87 @@ a:hover {
   }
 }
 
+/*------------------ MEDIA QUERY FOR 56em WIDTH ------------------*/
+@media (max-width: 57em) {
+  .container2 {
+    margin: 15% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 53em WIDTH ------------------*/
+@media (max-width: 53em) {
+  .container2 {
+    margin: 15% auto;
+  }
+  .button-div {
+    margin: 25px auto;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 51em WIDTH ------------------*/
 @media (max-width: 51em) {
   .container2 {
     margin: 60% auto;
+    height: 10vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.75em WIDTH ------------------*/
+@media (max-width: 50.75em) {
+  .container2 {
+    margin: 17% auto;
+    height: 10vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.625em WIDTH ------------------*/
+@media (max-width: 50.625em) {
+  .container2 {
+    margin: 60% auto;
+    height: 10vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50em WIDTH ------------------*/
+@media (max-width: 50em) {
+  .container2 {
+    margin: 19% auto;
+    height: 10vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+@media (max-width: 47.5em) {
+  .container2 {
+    margin: 19% auto;
+    height: 10vh;
+  }
+  .index-h1 {
+    font-size: large;
+  }
+  .button-div {
+    margin: 10px auto;
+    width: 50%;
+  }
+  .anch-tag {
+    font-size: small;
+  }
+}
+/*------------------ MEDIA QUERY FOR 42em WIDTH ------------------*/
+@media (max-width: 42em) {
+  .container2 {
+    margin: 25% auto;
     height: 15vh;
+  }
+  .index-h1 {
+    font-size: large;
+  }
+  .button-div {
+    margin: 10px auto;
+    width: 50%;
+  }
+  .anch-tag {
+    font-size: small;
   }
 }
 
@@ -92,6 +182,7 @@ a:hover {
   }
   .button-div {
     margin: 25px auto;
+    width: 75%;
   }
 }
 /*------------------ MEDIA QUERY FOR 27em WIDTH ------------------*/
@@ -106,6 +197,10 @@ a:hover {
 @media (max-width: 24em) {
   .container2 {
     margin: 90% auto;
+  }
+  .button-div {
+    margin: 10px auto;
+    width: 75%;
   }
   .anch-tag {
     font-size: small;

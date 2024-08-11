@@ -6,6 +6,7 @@
 
 .home-body {
   background-color: rgb(195, 195, 195);
+  height: 100vh;
 }
 
 .home-container {
@@ -33,6 +34,10 @@
   padding: 25px 10px;
   border-radius: 8px;
   box-shadow: 1px 1px 50px 1px rgba(7, 7, 7, 0.708);
+}
+
+hr {
+  margin: 40px 0 40px 0;
 }
 
 .home-h1 {

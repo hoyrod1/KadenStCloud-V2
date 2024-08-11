@@ -13,7 +13,7 @@
 require_once 'functions/config.php';
 ?>
 <!DOCTYPE html>
-    <html>
+    <html  style="overflow-x: hidden;">
         <head>
             <!------------------ BEGINNING OF META DESCRIPTION ------------------>
             <meta charset="utf-8">
@@ -44,6 +44,7 @@ require_once 'functions/config.php';
             <link rel="stylesheet" href="./css_2/footer.css">
             <link rel="stylesheet" href="./css_2/index.css">
             <link rel="stylesheet" href="./css_2/home.css">
+            <link rel="stylesheet" href="./css_2/about.css">
             <link rel="stylesheet" href="./css_2/login.css">
             <link rel="stylesheet" href="./css_2/register.css">
             <!------------------------ ENDING OF CSS FILES ----------------------->
