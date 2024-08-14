@@ -29,7 +29,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body style="overflow-x: hidden;">
+<body class="reset-body" style="overflow-x: hidden;">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
@@ -37,34 +37,31 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 m-auto">
-        <div class="card mt-5">
-          <div class="card-title">
-              <h2 class="text-center py-2">Reset Password</h2>
-          </div>
-          <hr>
-          <?php resetPassword(); ?>
-          <div class="card-body">
-              <form method="POST">
-                  <input type="password" name="password" placeholder="Enter Password" class="form-control mb-2">
-                  <input type="password" name="confirm_password" placeholder="Re-enter Password" class="form-control mb-2">
-                  <input type="hidden" name="password_token" value="<?php echo tokenGenerator(); ?>">
-                  <div class="card-footer">
-                      <button class=" btn btn-success" name="update_password">
-                          Update Password
-                      </button>
-                      <a href="login.php" class="btn btn-danger float-right">
-                          login
-                      </a>
-                  </div>
-              </form>
-          </div>
-        </div>
-      </div>
+
+
+<!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
+<div class="reset-main-container">
+<hr>
+<div class="reset-container">
+  <h1 class="reset-h1">Reset Your Password</h1>
+    <?php resetPassword(); ?>
+    <div class="">
+        <form class="log-form" method="POST">
+            <input type="password" name="password" placeholder="Enter Password" class="res-inp">
+            <input type="password" name="confirm_password" placeholder="Re-enter Password" class="res-inp">
+            <input type="hidden" name="password_token" value="<?php echo tokenGenerator(); ?>">
+            <br />
+            <button class="reset-button" name="update_password">
+                Update Password
+            </button>
+            <div class="res-login">
+                Log in: <a href="login.php" class="login-anchor">login</a>
+            </div>
+        </form>
     </div>
-  </div>
+</div>
+<hr>
+</div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

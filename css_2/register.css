@@ -12,7 +12,7 @@
 .reg-main-container {
   background-color: rgba(4, 4, 3, 0.581);
   width: 80%;
-  height: 90%;
+  height: 90vh;
   margin: 80px auto;
   padding: 25px 10px;
   border: 2px solid white;
@@ -22,7 +22,7 @@
 
 .reg-container {
   width: 50%;
-  height: 80%;
+  height: 80vh;
   margin: 5px auto;
 }
 .reg-h1 {
@@ -90,8 +90,35 @@ hr {
   margin-top: 10px;
 } */
 
+/*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
+@media (max-width: 80em) {
+  .reg-main-container {
+    height: 110vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 57.875em WIDTH ------------------*/
+@media (max-width: 57.875em) {
+  .reg-main-container {
+    height: 210vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.75em WIDTH ------------------*/
+@media (max-width: 57.75em) {
+  .reg-main-container {
+    height: 245vh;
+  }
+  .reg-container {
+    height: 250vh;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 48em WIDTH ------------------*/
 @media (max-width: 48em) {
+  .reg-main-container {
+    height: 240vh;
+  }
   .reg-container {
     width: 60%;
   }
@@ -111,8 +138,19 @@ hr {
   }
 }
 
+/*------------------ MEDIA QUERY FOR 26.75em WIDTH ------------------*/
+@media (max-width: 26.75em) {
+  .reg-main-container {
+    height: 100vh;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 25em WIDTH ------------------*/
 @media (max-width: 26em) {
+  .reg-main-container {
+    height: 100vh;
+  }
+
   .reg-container {
     width: 100%;
   }
@@ -128,5 +166,19 @@ hr {
   .reg-anchor {
     font-size: x-large;
     text-decoration: underline;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 24.375em WIDTH ------------------*/
+@media (max-width: 24.375em) {
+  .reg-main-container {
+    height: 110vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .reg-main-container {
+    height: 135vh;
   }
 }

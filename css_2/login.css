@@ -89,24 +89,80 @@ form {
   margin-top: 10px;
 }
 
+/*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
+@media (max-width: 80em) {
+  .main-container {
+    height: 110vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 57.875em WIDTH ------------------*/
+@media (max-width: 57.875em) {
+  .main-container {
+    height: 180vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.625em WIDTH ------------------*/
+@media (max-width: 50.625em) {
+  .main-container {
+    height: 70vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50em WIDTH ------------------*/
+@media (max-width: 50em) {
+  .main-container {
+    height: 200vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 48em WIDTH ------------------*/
 @media (max-width: 48em) {
   .login-container {
     width: 60%;
   }
 }
 
+/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+@media (max-width: 47.5em) {
+  .main-container {
+    height: 200vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 34em WIDTH ------------------*/
 @media (max-width: 34em) {
   .login-container {
     width: 75%;
   }
 }
 
+/*------------------ MEDIA QUERY FOR 27em WIDTH ------------------*/
 @media (max-width: 27em) {
+  .main-container {
+    height: 75vh;
+  }
   .login-container {
     width: 90%;
   }
 }
 
+/*------------------ MEDIA QUERY FOR 24.375em WIDTH ------------------*/
+@media (max-width: 24.375em) {
+  .main-container {
+    height: 80vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .main-container {
+    height: 100vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 22.5em WIDTH ------------------*/
 @media (max-width: 22.5em) {
   .login-container {
     width: 100%;

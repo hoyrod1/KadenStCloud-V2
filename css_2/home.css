@@ -5,7 +5,7 @@
 }
 
 .home-body {
-  background-color: rgb(195, 195, 195);
+  background-color: black;
   height: 100vh;
 }
 
@@ -58,6 +58,7 @@ hr {
   transition: 1s;
 }
 
+/*====================================================================*/
 /*------------------ MEDIA QUERY FOR 57em WIDTH ------------------*/
 @media (max-width: 57em) {
   .home-h2 {
@@ -79,3 +80,4 @@ hr {
     text-decoration: underline;
   }
 }
+/*====================================================================*/

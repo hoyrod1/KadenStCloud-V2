@@ -42,8 +42,8 @@ require_once "includes/nav.php";
   loginValidation(); 
   displayMessage();
 ?>
+<hr>
 <div class="login-container">
-  <hr>
   <h1 class="login-h1">Login Page</h1>
     <div class="">
       <form class="log-form" method="POST">

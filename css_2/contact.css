@@ -4,19 +4,19 @@
   box-sizing: border-box;
 }
 
-.about-body {
+.contact-body {
   background-color: rgb(195, 195, 195);
   height: 100vh;
 }
-.main-about {
+.main-contact {
   height: 100vh;
   width: 80%;
   margin: 10px auto;
   background-color: rgba(0, 0, 0, 0.558);
-  padding: 15px 0 15px 0;
+  padding: 15px;
 }
 
-.about-h1 {
+.contact-h1 {
   text-decoration: underline;
 }
 
@@ -24,9 +24,9 @@ hr {
   margin: 40px 0 40px 0;
 }
 
-.about-reg-link,
-.about-login-link,
-.container-about-paragraph {
+.contact-reg-link,
+.contact-login-link,
+.container-contact-paragraph {
   background-color: rgba(4, 4, 3, 0.501);
   width: 80%;
   margin: 80px auto;
@@ -35,17 +35,17 @@ hr {
   box-shadow: 1px 1px 50px 1px rgba(7, 7, 7, 0.708);
 }
 
-.about-paragraph {
+.contact-paragraph {
   color: white;
 }
 
-.about-h2,
-.about-h1 {
+.contact-h2,
+.contact-h1 {
   color: white;
   text-align: center;
 }
 
-.about-anch-tag {
+.contact-anch-tag {
   display: block;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -53,4 +53,128 @@ hr {
   transition: 1s;
 }
 
-/*------------------ MEDIA QUERY FOR 57em WIDTH ------------------*/
+/*=========================================================================*/
+/*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
+@media (max-width: 80em) {
+  .main-contact {
+    height: 110vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 60em WIDTH ------------------*/
+@media (max-width: 60em) {
+  .main-contact {
+    height: 200vh;
+  }
+
+  .contact-h2 {
+    font-size: x-large;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 57.875em WIDTH ------------------*/
+@media (max-width: 57.875em) {
+  .main-contact {
+    height: 210vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 55.1875em WIDTH ------------------*/
+@media (max-width: 55.1875em) {
+  .main-contact {
+    height: 250vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 53.375em WIDTH ------------------*/
+@media (max-width: 53.375em) {
+  .main-contact {
+    height: 240vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 52.75em WIDTH ------------------*/
+@media (max-width: 52.75em) {
+  .main-contact {
+    height: 230vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.75em WIDTH ------------------*/
+@media (max-width: 50.75em) {
+  .main-contact {
+    height: 240vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.625em WIDTH ------------------*/
+@media (max-width: 50.625em) {
+  .main-contact {
+    height: 90vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50em WIDTH ------------------*/
+@media (max-width: 50em) {
+  .main-contact {
+    height: 250vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+@media (max-width: 47.5em) {
+  .main-contact {
+    height: 250vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 41.6875em WIDTH ------------------*/
+@media (max-width: 41.6875em) {
+  .main-contact {
+    height: 250vh;
+    padding: 15px;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 32em WIDTH ------------------*/
+@media (max-width: 32em) {
+  .contact-h1 {
+    font-size: large;
+  }
+
+  .contact-h2 {
+    font-size: medium;
+  }
+  .contact-reg-link,
+  .contact-login-link,
+  .container-contact-paragraph {
+    width: 100%;
+  }
+  .contact-anch-tag {
+    text-decoration: underline;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 27em WIDTH ------------------*/
+@media (max-width: 27em) {
+  .main-contact {
+    height: 100vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 24.375em WIDTH ------------------*/
+@media (max-width: 24.375em) {
+  .main-contact {
+    height: 105vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .main-contact {
+    height: 150vh;
+    width: 90vw;
+    padding: 15px;
+  }
+}
+/*=========================================================================*/
