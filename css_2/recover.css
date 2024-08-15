@@ -4,12 +4,19 @@
   box-sizing: border-box;
 }
 
-.reset-body {
+.response-text {
+  color: greenyellow;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recover-body {
   background-color: lightgrey;
   height: 100vh;
 }
 
-.reset-main-container {
+.recover-main-container {
   background-color: rgba(4, 4, 3, 0.581);
   width: 80%;
   height: 50vh;
@@ -20,12 +27,13 @@
   box-shadow: 1px 1px 50px 1px rgba(7, 7, 7, 0.708);
 }
 
-.reset-container {
+.recover-container {
   width: 50%;
   height: 80%;
   margin: 5px auto;
 }
-.reset-h1 {
+
+.recover-h1 {
   color: white;
   text-align: center;
   text-decoration: underline;
@@ -35,17 +43,18 @@ hr {
   margin: 40px 0 40px 0;
 }
 
-.res-form {
+.rec-form {
   padding: 50px;
   margin: 10px auto;
   background-color: rgba(117, 117, 117, 0.385);
   box-shadow: 1px 1px 50px 1px rgba(244, 242, 242, 0.603);
   width: 100%;
+  /* border: 3px solid rgb(86, 121, 149); */
   border-radius: 8px;
 }
 
-.res-inp,
-.reset-button {
+.rec-inp,
+.recover-button {
   margin: 10px auto;
   width: 100%;
   display: block;
@@ -56,73 +65,69 @@ hr {
   color: white;
 }
 
-.res-inp {
+.rec-inp {
   background-color: white;
   color: black;
 }
 
-.reset-button {
-  text-align: center;
-  color: white;
+.rec-login-anchor {
   font-size: large;
-  transition: all 2s;
+  color: brown;
+  text-decoration: none;
+  transition: all 1s;
   cursor: pointer;
 }
 
-.reset-button:hover {
+.rec-login-anchor:hover {
   color: aqua;
-  font-size: 20px;
+  font-size: x-large;
 }
 
-.res-login {
-  margin: 10px 0 0 0;
-}
-
-.login-anchor {
-  color: rgb(54, 145, 145);
-  text-decoration: none;
-  transition: all 2s;
+.rec-login {
+  margin: 20px 0 0 0;
+  font-size: medium;
+  color: white;
 }
 
 /*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
 @media (max-width: 80em) {
-  .reset-main-container {
-    height: 90vh;
+  .recover-main-container {
+    height: 75vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 67.5em WIDTH ------------------*/
 @media (max-width: 67.5em) {
-  .reset-main-container {
-    height: 90vh;
+  .recover-main-container {
+    height: 75vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 57.875em WIDTH ------------------*/
 @media (max-width: 57.875em) {
-  .reset-main-container {
+  .recover-main-container {
     height: 160vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 57.1875em WIDTH ------------------*/
 @media (max-width: 57.1875em) {
-  .reset-main-container {
+  .recover-main-container {
     height: 150vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 53.375em WIDTH ------------------*/
 @media (max-width: 53.375em) {
-  .reset-main-container {
-    height: 170vh;
+  .recover-main-container {
+    height: 140vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 50.75em WIDTH ------------------*/
 @media (max-width: 50.75em) {
-  .reset-main-container {
-    height: 180vh;
+  .recover-main-container {
+    height: 150vh;
   }
 }
 
@@ -142,74 +147,80 @@ hr {
 
 /*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
 @media (max-width: 47.5em) {
-  .reset-main-container {
-    height: 180vh;
+  .recover-main-container {
+    height: 150vh;
+  }
+  .recover-h1 {
+    font-size: large;
   }
 }
 
-/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+/*------------------ MEDIA QUERY FOR 41.6875em WIDTH ------------------*/
 @media (max-width: 41.6875em) {
-  .reset-main-container {
+  .recover-main-container {
     height: 180vh;
   }
-  .reset-container {
+  .recover-container {
     width: 90%;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 26.75em WIDTH ------------------*/
 @media (max-width: 26.75em) {
-  .reset-main-container {
-    height: 70vh;
+  .recover-main-container {
+    height: 60vh;
   }
-
-  .reset-container {
+  .recover-container {
     width: 100%;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 25.875em WIDTH ------------------*/
 @media (max-width: 25.875em) {
-  .reset-main-container {
-    height: 70vh;
+  .recover-main-container {
+    height: 60vh;
   }
 
-  .reset-container {
+  .recover-container {
     width: 100%;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 25.75em WIDTH ------------------*/
 @media (max-width: 25.75em) {
-  .reset-main-container {
-    height: 70vh;
+  .recover-main-container {
+    height: 60vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 24.375em WIDTH ------------------*/
 @media (max-width: 24.375em) {
-  .reset-main-container {
-    height: 80vh;
+  .recover-main-container {
+    height: 65vh;
+  }
+
+  .rec-login {
+    font-size: small;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 24em WIDTH ------------------*/
 @media (max-width: 23.4375em) {
-  .reset-main-container {
+  .recover-main-container {
     height: 85vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
 @media (max-width: 23.4375em) {
-  .reset-main-container {
-    height: 100vh;
+  .recover-main-container {
+    height: 70vh;
   }
 }
 
 /*------------------ MEDIA QUERY FOR 22.50em WIDTH ------------------*/
 @media (max-width: 22.5em) {
-  .reset-main-container {
-    height: 85vh;
+  .recover-main-container {
+    height: 75vh;
   }
 }

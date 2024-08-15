@@ -49,6 +49,7 @@ require_once 'functions/config.php';
             <link rel="stylesheet" href="./css_2/login.css">
             <link rel="stylesheet" href="./css_2/register.css">
             <link rel="stylesheet" href="./css_2/reset.css">
+            <link rel="stylesheet" href="./css_2/recover.css">
             <!------------------------ ENDING OF CSS FILES ----------------------->
             <title> <?php echo title(); ?></title>
         </head>

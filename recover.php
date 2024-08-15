@@ -29,42 +29,40 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body style="overflow-x: hidden;">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
+<body class="recover-body" style="overflow-x: hidden;">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 m-auto">
-        <div class="card mt-5">
-          <div class="card-title">
-            <h2 class="text-center py-2">Recover Password</h2>
-          </div>
-          <?php 
-              recoverPassword();
-              displayMessage(); 
-            ?>
-          <hr>
-          <div class="card-body">
-            <form method="POST">
-              <input type="text" name="email" placeholder="Please enter or email" class="form-control mb-2">
-              <input type="hidden" name="token_gen" value="<?php echo tokenGenerator(); ?>">
-              <div class="card-footer">
-                 <button class=" btn btn-success" name="recover">
-                     Recover Password
-                 </button>
-                 <a href="login.php" class="btn btn-danger float-right">login</a>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
+<div class="recover-main-container">
+<div class="response-text">
+<?php 
+    recoverPassword();
+    displayMessage(); 
+?>
+</div>
+<hr>
+<div class="recover-container">
+  <h1 class="recover-h1">Recover Your Password</h1>
+    <div class="">
+        <form class="rec-form" method="POST">
+            <input type="text" name="email" placeholder="Please enter or email" class="rec-inp">
+            <input type="hidden" name="token_gen" value="<?php echo tokenGenerator(); ?>">
+            <br />
+            <button class="recover-button" name="recover">
+                Recover Password
+            </button>
+            <div class="rec-login">
+                Remember password: &nbsp; <a href="login.php" class="rec-login-anchor">login</a>
+            </div>
+        </form>
     </div>
-  </div>
+    <hr>
+</div>
+</div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

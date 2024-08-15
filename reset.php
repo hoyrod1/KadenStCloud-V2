@@ -29,16 +29,13 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body class="reset-body" style="overflow-x: hidden;">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
+<body class="reset-body" style="overflow-x: hidden;">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
-<!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-
-
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
 <div class="reset-main-container">
 <hr>
@@ -46,7 +43,7 @@ require_once "includes/nav.php";
   <h1 class="reset-h1">Reset Your Password</h1>
     <?php resetPassword(); ?>
     <div class="">
-        <form class="log-form" method="POST">
+        <form class="res-form" method="POST">
             <input type="password" name="password" placeholder="Enter Password" class="res-inp">
             <input type="password" name="confirm_password" placeholder="Re-enter Password" class="res-inp">
             <input type="hidden" name="password_token" value="<?php echo tokenGenerator(); ?>">
@@ -55,12 +52,13 @@ require_once "includes/nav.php";
                 Update Password
             </button>
             <div class="res-login">
-                Log in: <a href="login.php" class="login-anchor">login</a>
+                Remember password: &nbsp; 
+                <a href="login.php" class="login-anchor">login</a>
             </div>
         </form>
     </div>
+    <hr>
 </div>
-<hr>
 </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
