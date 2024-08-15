@@ -30,32 +30,32 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body class="activate-body" style="overflow-x: hidden;">
+<body class="code-body" style="overflow-x: hidden;">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-<div class="activate-main-container">
+<div class="code-main-container">
 <hr>
 <?php validateCode(); ?>
-<div class="activate-container">
-  <h1 class="activate-h1">Recover Your Password</h1>
+<div class="code-container">
+    <h1 class="code-h1">Recover Your Password</h1>
     <div class="">
-        <form class="activate-form" method="POST">
-            <input type="text" name="token" placeholder="#####" class="activate-inp">
+        <form class="code-form" method="POST">
+            <input type="text" name="token" placeholder="########" class="code-inp">
             <br />
-            <button class="activate-button" name="validate_code">
+            <button class="code-button" name="validate_code">
                 Activate
             </button>
-            <div class="activate-login">
+            <div class="code-login">
                 Remember password: &nbsp; 
-                <a href="login.php" class="activate-login-anchor">login</a>
+                <a href="login.php" class="code-login-anchor">login</a>
             </div>
         </form>
-    </div>
-    <hr>
+     </div>
+     <hr>
 </div>
 </div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>

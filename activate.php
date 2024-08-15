@@ -27,7 +27,7 @@ function title()
 require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
-<body style="overflow-x: hidden;">
+<body class="activate-body" style="overflow-x: hidden;">
 <!------------------------------- BEGGINING OF BODY -------------------------------->
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
@@ -35,14 +35,17 @@ require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
-    <div class="container mt-3">
-        <div class="card">
-            <div class="card-body">
-                <h1 class="text-center">Activate Page</h1>
-            </div>
-            <?php accountActivate(); ?>
+<div class="activate-main-container">
+    <hr>
+    <div class="activate-container">
+        <h1 class="activate-h1">Activate Page</h1>
+        <div class="activate-div">
+            This is the Account Activate Page.
         </div>
+        <?php accountActivate(); ?>
     </div>
+    <hr>
+</div>
 <!------------------------------ END OF MAIN SECTION ------------------------------>
 <?php
 //============================= BEGGINING OF FOOTER ===============================//
