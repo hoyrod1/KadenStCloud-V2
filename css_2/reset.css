@@ -12,7 +12,7 @@
 .reset-main-container {
   background-color: rgba(4, 4, 3, 0.581);
   width: 80%;
-  height: 50%;
+  height: 50vh;
   margin: 80px auto;
   padding: 25px 10px;
   border: 2px solid white;
@@ -82,4 +82,138 @@ form {
   color: rgb(54, 145, 145);
   text-decoration: none;
   transition: all 2s;
+}
+
+/*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
+@media (max-width: 80em) {
+  .reset-main-container {
+    height: 90vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 67.5em WIDTH ------------------*/
+@media (max-width: 67.5em) {
+  .reset-main-container {
+    height: 90vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 57.875em WIDTH ------------------*/
+@media (max-width: 57.875em) {
+  .reset-main-container {
+    height: 160vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 57.1875em WIDTH ------------------*/
+@media (max-width: 57.1875em) {
+  .reset-main-container {
+    height: 150vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 53.375em WIDTH ------------------*/
+@media (max-width: 53.375em) {
+  .reset-main-container {
+    height: 170vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.75em WIDTH ------------------*/
+@media (max-width: 50.75em) {
+  .reset-main-container {
+    height: 180vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50.625em WIDTH ------------------*/
+@media (max-width: 50.625em) {
+  .reset-main-container {
+    height: 70vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 50em WIDTH ------------------*/
+@media (max-width: 50em) {
+  .reset-main-container {
+    height: 180vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+@media (max-width: 47.5em) {
+  .reset-main-container {
+    height: 180vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
+@media (max-width: 41.6875em) {
+  .reset-main-container {
+    height: 180vh;
+  }
+  .reset-container {
+    width: 90%;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 26.75em WIDTH ------------------*/
+@media (max-width: 26.75em) {
+  .reset-main-container {
+    height: 70vh;
+  }
+
+  .reset-container {
+    width: 100%;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 25.875em WIDTH ------------------*/
+@media (max-width: 25.875em) {
+  .reset-main-container {
+    height: 70vh;
+  }
+
+  .reset-container {
+    width: 100%;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 25.75em WIDTH ------------------*/
+@media (max-width: 25.75em) {
+  .reset-main-container {
+    height: 70vh;
+  }
+  /* 
+  .reset-container {
+    width: 100%;
+  } */
+}
+
+/*------------------ MEDIA QUERY FOR 24.375em WIDTH ------------------*/
+@media (max-width: 24.375em) {
+  .reset-main-container {
+    height: 80vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 24em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .reset-main-container {
+    height: 85vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .reset-main-container {
+    height: 100vh;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 22.50em WIDTH ------------------*/
+@media (max-width: 22.5em) {
+  .reset-main-container {
+    height: 85vh;
+  }
 }
