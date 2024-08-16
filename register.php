@@ -36,9 +36,11 @@ require_once "includes/header.php";
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
-<!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
+<!---------------------------- BEGGINING OF MAIN SECTION --------------------------->
 <div class="reg-main-container">
+<div class="response-text">
   <?php formValidation(); ?>
+</div>
   <div class="reg-container">
   <hr>
   <h1 class="reg-h1">Registration Page</h1>

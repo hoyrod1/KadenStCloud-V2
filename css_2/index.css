@@ -15,7 +15,7 @@
 
 .container2 {
   width: 80%;
-  margin: 50% auto;
+  margin: 45% auto;
   height: 15vh;
   background-color: rgba(5, 5, 5, 0.505);
   z-index: 10;
@@ -58,10 +58,35 @@ a:hover {
 }
 
 /*------------------------------ Media Querys ------------------------------*/
+/*------------------ MEDIA QUERY FOR 85.5em WIDTH ------------------*/
+@media (max-width: 90em) {
+  .container2 {
+    margin: 50% auto;
+  }
+}
+/*------------------ MEDIA QUERY FOR 85.5em WIDTH ------------------*/
+@media (max-width: 85.5em) {
+  .container2 {
+    margin: 30% auto;
+  }
+}
 /*------------------ MEDIA QUERY FOR 80em WIDTH ------------------*/
 @media (max-width: 80em) {
   .container2 {
     margin: 25% auto;
+  }
+}
+/*------------------ MEDIA QUERY FOR 78em WIDTH ------------------*/
+@media (max-width: 79em) {
+  .container2 {
+    margin: 50% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 73.75em WIDTH ------------------*/
+@media (max-width: 73.75em) {
+  .container2 {
+    margin: 30% auto;
   }
 }
 
@@ -69,6 +94,20 @@ a:hover {
 @media (max-width: 73.4375em) {
   .container2 {
     margin: 50% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 67.5em WIDTH ------------------*/
+@media (max-width: 67.5em) {
+  .container2 {
+    margin: 30% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 64em WIDTH ------------------*/
+@media (max-width: 64em) {
+  .container2 {
+    margin: 25% auto;
   }
 }
 
@@ -85,6 +124,7 @@ a:hover {
 @media (max-width: 57em) {
   .container2 {
     margin: 60% auto;
+    height: 10vh;
   }
 }
 
@@ -95,6 +135,13 @@ a:hover {
   }
 }
 
+/*------------------ MEDIA QUERY FOR 53.3125em WIDTH ------------------*/
+@media (max-width: 53.3125em) {
+  .container2 {
+    margin: 65% auto;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 53em WIDTH ------------------*/
 @media (max-width: 53em) {
   .container2 {
@@ -102,6 +149,14 @@ a:hover {
   }
   .button-div {
     margin: 25px auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 51.25em WIDTH ------------------*/
+@media (max-width: 51.25em) {
+  .container2 {
+    margin: 60% auto;
+    height: 10vh;
   }
 }
 
@@ -137,6 +192,14 @@ a:hover {
   }
 }
 
+/*------------------ MEDIA QUERY FOR 48em WIDTH ------------------*/
+@media (max-width: 48em) {
+  .container2 {
+    margin: 60% auto;
+    height: 10vh;
+  }
+}
+
 /*------------------ MEDIA QUERY FOR 47.5em WIDTH ------------------*/
 @media (max-width: 47.5em) {
   .container2 {
@@ -154,6 +217,14 @@ a:hover {
     font-size: small;
   }
 }
+
+/*------------------ MEDIA QUERY FOR 45em WIDTH ------------------*/
+@media (max-width: 45em) {
+  .container2 {
+    margin: 32% auto;
+    height: 15vh;
+  }
+}
 /*------------------ MEDIA QUERY FOR 42em WIDTH ------------------*/
 @media (max-width: 42em) {
   .container2 {
@@ -169,6 +240,14 @@ a:hover {
   }
   .anch-tag {
     font-size: small;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 33.75em WIDTH ------------------*/
+@media (max-width: 33.75em) {
+  .container2 {
+    margin: 60% auto;
+    height: 10vh;
   }
 }
 
@@ -207,12 +286,26 @@ a:hover {
   }
 }
 
-/*------------------ MEDIA QUERY FOR 23em WIDTH ------------------*/
+/*------------------ MEDIA QUERY FOR 23.5em WIDTH ------------------*/
 @media (max-width: 23.5em) {
   .container2 {
     margin: 80% auto;
   }
   .anch-tag {
     font-size: small;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 23.4375em WIDTH ------------------*/
+@media (max-width: 23.4375em) {
+  .container2 {
+    margin: 85% auto;
+  }
+}
+
+/*------------------ MEDIA QUERY FOR 21.5em WIDTH ------------------*/
+@media (max-width: 21.5em) {
+  .container2 {
+    margin: 110% auto;
   }
 }

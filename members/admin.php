@@ -30,28 +30,16 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body>
+<body class="mem-admin-body">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF CONTAINER SECTION ------------------------->
-    <div class="container mt-3">
-        <div class="card">
-            <div class="card-body">
-                <h2 class="text-center">
-                <?php
-                if (loggedInSession()) {
-                    echo "Welcome to the Memebers Admin page";
-                } else {
-                    header("location:login.php");
-                }
-                ?>
-                </h2>
-            </div>
-        </div>
-    </div>
+<div class="mem-admin-container">
+    <h1 class="mem-admin-h1"> Welcome to the Members Admin Page</h1>
+</div>
 <!---------------------------- END OF CONTAINER SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

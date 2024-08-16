@@ -1,9 +1,8 @@
 .footer-section {
-  background-color: rgba(8, 8, 8, 0.656);
+  background-color: rgba(155, 153, 153, 0.656);
   color: white;
   text-align: center;
   padding: 20px;
-  margin: 0 0 0 0;
   margin: 0 0 15px 0;
 }
 
@@ -14,22 +13,3 @@
     font-size: x-small;
   }
 }
-/* 
-@media (max-width: 84em) {
-}
-
-@media (max-width: 75em) {
-}
-
-@media (max-width: 65em) {
-}
-
-@media (max-width: 31em) {
-}
-
-@media (max-width: 25em) {
-}
-
-@media (max-width: 24em) {
-} 
-*/

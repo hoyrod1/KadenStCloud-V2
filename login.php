@@ -38,10 +38,12 @@ require_once "includes/nav.php";
 ?>
 <!---------------------------- BEGGINING OF MAIN SECTION---------------------------->
 <div class="main-container" style="overflow-x: hidden;">
-<?php 
+<div class="response-text">
+<?php
   loginValidation(); 
   displayMessage();
 ?>
+</div>
 <hr>
 <div class="login-container">
   <h1 class="login-h1">Login Page</h1>

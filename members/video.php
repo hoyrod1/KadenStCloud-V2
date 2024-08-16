@@ -30,22 +30,16 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body>
+<body class="mem-video-body">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF MAIN SECTION ------------------------->
-    <div class="contact-container">
-        <?php
-        if (loggedInSession()) {
-            echo "Welcome to the Members Video page";
-        } else {
-            header("location:login.php");
-        }
-        ?>
-    </div>
+<div class="mem-video-container">
+    <h1 class="mem-video-h1"> Welcome to the Members Video Page</h1>
+</div>
 <!---------------------------- END OF MAIN SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

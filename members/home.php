@@ -30,22 +30,18 @@ require_once "includes/header.php";
 //=============================== ENDING OF HEADER ================================//
 ?>
 <!------------------------------- BEGGINING OF BODY -------------------------------->
-<body>
+<body class="mem-home-body">
 <?php
 //========================= BEGGINING OF NAVIGATION BAR ===========================//
 require_once "includes/nav.php";
 //============================ END OF NAVIGATION BAR ==============================//
 ?>
 <!------------------------- BEGINNING OF MAIN SECTION ------------------------->
-    <div class="contact-container">
-        <?php
-        if (loggedInSession()) {
-            echo "Welcome to the Members Home page";
-        } else {
-            header("location:login.php");
-        }
-        ?>
-    </div>
+<hr>
+<div class="mem-home-container">
+    <h1 class="mem-home-h1"> Welcome to the Members Home page</h1>
+</div>
+<hr>
 <!---------------------------- END OF MAIN SECTION ---------------------------->
 <?php
 //============================= BEGGINING OF FOOTER ===============================//

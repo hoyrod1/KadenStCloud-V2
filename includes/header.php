@@ -11,6 +11,8 @@
  * @link     https://kadenstcloud/header.php
  */
 require_once 'functions/config.php';
+// $test_database = new Db();
+// $test_database->conn();
 ?>
 <!DOCTYPE html>
     <html  style="overflow-x: hidden;">

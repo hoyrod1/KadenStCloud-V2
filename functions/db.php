@@ -33,10 +33,10 @@ class Db
      */
     public function conn() 
     {
-        $this->_servname = "";
-        $this->_username = "";
-        $this->_password = "";
-        $this->_dbname = "";
+        $this->_servname = "localhost";
+        $this->_username = "root";
+        $this->_password = "root";
+        $this->_dbname = "kadenstcloud_reg_email_log";
 
 
         try 
@@ -46,7 +46,7 @@ class Db
 
             $pdo_conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            echo "Connected Succecfully!";
+            // echo "Connected Succecfully!";
 
             return $pdo_conn;
 

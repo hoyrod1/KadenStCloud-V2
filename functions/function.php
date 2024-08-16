@@ -154,11 +154,11 @@ function formValidation()
             $error[] = 'Username already exist!';
         }
         //CHECK FOR VALID EMAIL
-        if (!preg_match("/[a-zA-Z0-9._]{3,}@[a-zA-Z0-9._]{3,}.{1}[a-zA-Z0-9._]{2,}/", $email)) {
+        if (!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $error[] = 'Please enter valid email!';
         }
         //CHECK TO SEE IF EMAIL EXOST
-        if (email_exist($email)) {
+        if (emailExist($email)) {
             $error[] = 'Email already exist!';
         }
         //CHECK PASSWORD CHARACTERS
@@ -285,7 +285,15 @@ function recoverPassword()
                 $val_query_pre->bindValue(':val_Code', $val_code);
                 //$val_code_conn = $connect->conn()->prepare($val_query);
                 $val_query_pre->execute();
-                setcookie('temp_code', $val_code, time() + 86400);
+                $cookieArrSet = [
+                    "expires" => time() + 86400,
+                    "path" => "/",
+                    "domain" => "", 
+                    "secure" => false,
+                    "httponly" => false,
+                    "samesite" => 'None'
+                   ];
+                setcookie('temp_code', $val_code, $cookieArrSet);
                 $subject = "Please reset your password";
                 $message = "Copy & paste {$val_code} in the text field Click on link: http://www.kadenstcloud.com/code.php?Email=$email&Code=$val_code";
                 $header  = "no-reply@kadenstcloud.com";
@@ -579,7 +587,15 @@ function validateCode()
                     $result_sql_val_code = $connect->conn()->prepare($sql_val_code);
                     $results = $result_sql_val_code->execute();
                     if ($results) {
-                        setcookie('resetpassword', $code, time() + 86400);
+                        $cookieArrSet = [
+                            "expires" => time() + 86400,
+                            "path" => "/",
+                            "domain" => "", 
+                            "secure" => false,
+                            "httponly" => false,
+                            "samesite" => 'None'
+                           ];
+                        setcookie('resetpassword', $code, $cookieArrSet);
                         header("location:/reset.php?Email=$eMail&Code=$code");
                     } else {
                         echo displayError('Your validation code '.$code.' is incorrect');
@@ -596,5 +612,5 @@ function validateCode()
         }
     }
 }
-//************ ENDING FUNCTION FOR VALIDATION CODE TO RESET PASSWORD *************//
+//************ ENDING FUNCTION FOR VALIDATION CODE TO RESET PASSWORD **************//
 //================================================================================//
