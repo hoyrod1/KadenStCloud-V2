@@ -20,12 +20,28 @@ require_once '../functions/config.php';
     <meta http-equiv="X-UA-Comapatible" content="ie-edge">
     <title> <?php echo title(); ?></title>
     <!------------------------------- Bootstrap Link ------------------------------->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!---------------------------- End Of Bootstrap Link ---------------------------->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <!-------------------------- End Of Bootstrap Link --------------------------->
+
+    <!------------------------------ CSS File Links ------------------------------>
     <link rel="stylesheet" href="./mem_css/mem_home.css">
     <link rel="stylesheet" href="./mem_css/mem_footer.css">
     <link rel="stylesheet" href="./mem_css/mem_update.css">
     <link rel="stylesheet" href="./mem_css/mem_video.css">
     <link rel="stylesheet" href="./mem_css/mem_pic.css">
     <link rel="stylesheet" href="./mem_css/mem_admin.css">
+    <!-------------------------- End Of CSS File Links --------------------------->
+    
+    <!--------------------- Javascript Video-Chat File Link----------------------->
+    <script defer src="./javascript/video_chat_javascript/scripts.js"></script>
+    <script defer src="./javascript/video_chat_javascript/changeButtons.js"></script>
+    <script defer src="./javascript/video_chat_javascript/changeVideoSize.js"></script>
+    <script defer src="./javascript/video_chat_javascript/screenRecorder.js"></script>
+    <script defer src="./javascript/video_chat_javascript/shareScreen.js"></script>
+    <script defer src="./javascript/video_chat_javascript/inputOutput.js"></script>
+    <!------------------- End Of Javascript Video-Chat File ----------------------->
 </head>

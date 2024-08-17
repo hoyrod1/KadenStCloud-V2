@@ -6,6 +6,6 @@ RewriteRule ^members_update?$ update.php
 
 RewriteRule ^members_video?$ video.php
 
-RewriteRule ^members_Pic?$ pic.php
+RewriteRule ^members_pic?$ pic.php
 
 RewriteRule ^members/mem_admin?$ members/admin.php

@@ -12,7 +12,8 @@
  */
 ?>
 <footer class="footer-section">
-  Copyright © Kaden St. Cloud Registration-Login System inc 2020 - <span id="demo"></span>
+  Copyright © Kaden St. Cloud Registration-Login System inc 2020 - 
+  <span id="demo"></span>
 </footer>
 <script defer type="text/javascript" src="js/mobile.js"></script>
 <script src="./Date_Non_Mem.js"></script>

@@ -33,7 +33,7 @@ if (loggedInSession()) {
           <a class="nav-link" href="members_video">Video</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="members_Pic">Pics</a>
+          <a class="nav-link" href="members_pic">Pics</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-danger" href="../logout.php"> Log Out</a>
