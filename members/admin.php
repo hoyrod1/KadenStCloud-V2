@@ -114,6 +114,14 @@ require_once "includes/nav.php";
 require_once "includes/footer.php";
 //================================ END OF FOOTER ==================================//
 ?>
+<!--------------------- Javascript Video-Chat File Link----------------------->
+<script defer src="javascript/video_chat_javascript/scripts.js"></script>
+<script defer src="javascript/video_chat_javascript/changeButtons.js"></script>
+<script defer src="javascript/video_chat_javascript/changeVideoSize.js"></script>
+<script defer src="javascript/video_chat_javascript/screenRecorder.js"></script>
+<script defer src="javascript/video_chat_javascript/shareScreen.js"></script>
+<script defer src="javascript/video_chat_javascript/inputOutput.js"></script>
+<!------------------- End Of Javascript Video-Chat File ----------------------->
 <!---------------------------------- END OF BODY ----------------------------------->
 </body>
 </html>
