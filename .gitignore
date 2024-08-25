@@ -3,3 +3,6 @@ _notes
 cgi-bin
 phpinfo.php
 Db.php
+node_modules
+.env
+package-lock.json

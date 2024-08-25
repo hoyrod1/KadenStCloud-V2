@@ -35,13 +35,4 @@ require_once '../functions/config.php';
     <link rel="stylesheet" href="./mem_css/mem_pic.css">
     <link rel="stylesheet" href="./mem_css/mem_admin.css">
     <!-------------------------- End Of CSS File Links --------------------------->
-    
-    <!--------------------- Javascript Video-Chat File Link----------------------->
-    <!-- <script defer src="./javascript/video_chat_javascript/scripts.js"></script>
-    <script defer src="./javascript/video_chat_javascript/changeButtons.js"></script>
-    <script defer src="./javascript/video_chat_javascript/changeVideoSize.js"></script>
-    <script defer src="./javascript/video_chat_javascript/screenRecorder.js"></script>
-    <script defer src="./javascript/video_chat_javascript/shareScreen.js"></script>
-    <script defer src="./javascript/video_chat_javascript/inputOutput.js"></script> -->
-    <!------------------- End Of Javascript Video-Chat File ----------------------->
 </head>

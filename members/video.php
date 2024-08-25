@@ -39,6 +39,23 @@ require_once "includes/nav.php";
 <!------------------------- BEGINNING OF MAIN SECTION ------------------------->
 <div class="mem-video-container">
     <h1 class="mem-video-h1"> Welcome to the Members Video Page</h1>
+    <div class="row mb-3 mt-3 justify-content-md-center">
+        <div id="user-name"></div>
+        <button id="call" class="btn btn-primary col-1">Call!</button>
+        <button id="hangup" class="col-1" class="btn btn-primary">Hangup</button>
+        <div id="answer" class="col"></div>
+    </div>
+    <div id="videos">
+        <div id="video-wrapper">
+          <div id="waiting" class="btn btn-warning">Waiting for answer...</div>
+          <video class="video-player" id="local-video" autoplay playsinline controls>
+
+          </video>
+        </div>
+        <video class="video-player" id="remote-video" autoplay playsinline controls>
+
+        </video>
+    </div>
 </div>
 <!---------------------------- END OF MAIN SECTION ---------------------------->
 <?php
@@ -48,4 +65,6 @@ require_once "includes/footer.php";
 ?>
 <!---------------------------------- END OF BODY ----------------------------------->
 </body>
+<!-- <script src="/socket.io/socket.io.js"></script> -->
+<script src='javascript/video_chat_javascript/peer_scripts.js'></script>
 </html>

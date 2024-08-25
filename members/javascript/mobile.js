@@ -20,4 +20,4 @@
 //   });
 // });
 /*------------------------------------------------------------------*/
-console.log(" Sanity Check for mobile.js ");
+// console.log(" Sanity Check for mobile.js ");
