@@ -286,11 +286,11 @@ function recoverPassword()
                 //$val_code_conn = $connect->conn()->prepare($val_query);
                 $val_query_pre->execute();
                 $cookieArrSet = [
-                    "expires" => time() + 86400,
+                    "expires" => time() + 1800,
                     "path" => "/",
-                    "domain" => "", 
-                    "secure" => false,
-                    "httponly" => false,
+                    "domain" => "kadenstcloud.com",
+                    "secure" => true,
+                    "httponly" => true,
                     "samesite" => 'None'
                    ];
                 setcookie('temp_code', $val_code, $cookieArrSet);
@@ -588,11 +588,11 @@ function validateCode()
                     $results = $result_sql_val_code->execute();
                     if ($results) {
                         $cookieArrSet = [
-                            "expires" => time() + 86400,
+                            "expires" => time() + 1800,
                             "path" => "/",
-                            "domain" => "", 
-                            "secure" => false,
-                            "httponly" => false,
+                            "domain" => "kadenstcloud.com",
+                            "secure" => true,
+                            "httponly" => true,
                             "samesite" => 'None'
                            ];
                         setcookie('resetpassword', $code, $cookieArrSet);
